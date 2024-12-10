@@ -24,6 +24,7 @@ make run
 The app will be available at http://127.0.0.1:8050.
 
 ## **Project Structure**
+```bash
 ClimaTrade/
 ├── app/
 │   ├── __init__.py
@@ -71,5 +72,6 @@ ClimaTrade/
 ├── Makefile                  # Make commands for setup and execution
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
+```
 
 
