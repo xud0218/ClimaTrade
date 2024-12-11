@@ -88,6 +88,7 @@ PS: the fine-tuned LSTM can be found in Google Colab notebook, **ClimaTrade.ipyn
   * **Long Short-Term Memory (LSTM):** Although the LSTM achieved the lowest MAE, it does not outperform the other models' prediction of the next day's highest temperature.
      * Mean Absolute Error: 0.015393544919788837
 * **Data Table:**
+  
 | Date       | True Value | LR Prediction | RF Prediction | GB Prediction | LSTM Prediction |
 |------------|------------|---------------|---------------|---------------|-----------------|
 | 12/4/2024  | 41         | 40.4          | 39.6          | 39            | 40.3            |
@@ -97,7 +98,9 @@ PS: the fine-tuned LSTM can be found in Google Colab notebook, **ClimaTrade.ipyn
 | 12/8/2024  | 54.1       | 53.5          | 49.5          | 50.1          | 51.7            |
 | 12/9/2024  | 50.7       | 49.8          | 48.2          | 48.6          | 49.3            |
 | 12/10/2024 | 48         | 49.3          | 50.6          | 51            | 51.6            |
+
 * **Evaluation Table:**
+  
 | Model | MSE       | MAE       |
 |-------|-----------|-----------|
 | LR    | 0.502857  | 0.600000  |
